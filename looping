@@ -1,0 +1,17 @@
+for num in range(10, 100):
+    if num % 4 == 0 and num % 6 == 0:
+        print("First number:", num)
+        break
+correct_password = "python123"
+attempts = 3
+
+while attempts > 0:
+    pwd = input("Enter password: ")
+    if pwd == correct_password:
+        print("Access granted")
+        break
+    else:
+        attempts -= 1
+        print("Wrong password. Attempts left:", attempts)
+else:
+    print("Account locked")
