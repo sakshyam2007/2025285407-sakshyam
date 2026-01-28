@@ -1,0 +1,16 @@
+score = 78
+attendance = 92  # percentage
+
+if score >= 90:
+    grade = "A"
+elif score >= 75:
+    if attendance >= 90:
+        grade = "A-"   # attendance bonus
+    else:
+        grade = "B+"
+elif score >= 60:
+    grade = "B"
+else:
+    grade = "Fail"
+
+print("Grade:", grade)
