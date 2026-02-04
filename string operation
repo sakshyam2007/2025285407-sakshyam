@@ -1,0 +1,85 @@
+Question 1: Demonstrate string initialization and indexing in Python.
+Code:
+s = "Python"
+
+print("String:", s)
+print("First character:", s[0])
+print("Last character:", s[-1])
+print("Length of string:", len(s))
+
+Output:
+String: Python
+First character: P
+Last character: n
+Length of string: 6
+
+Observation:
+
+Strings in Python are indexed starting from 0.
+Positive and negative indexing can be used to access characters.
+
+
+Question 2: Write a program to perform basic string operations.
+Code:
+s1 = "Hello"
+s2 = "World"
+
+print("Concatenation:", s1 + " " + s2)
+print("Repetition:", s1 * 2)
+print("'lo' in s1?", "lo" in s1)
+print("'Hi' not in s1?", "Hi" not in s1)
+
+Output:
+Concatenation: Hello World
+Repetition: HelloHello
+'lo' in s1? True
+'Hi' not in s1? True
+
+Observation:
+
+Python supports concatenation, repetition, and membership operations on strings using operators.
+
+
+
+
+Question 3: Illustrate string slicing operations in Python.
+Code:
+text = "Programming"
+
+print("Original string:", text)
+print("First 5 characters:", text[:5])
+print("Characters from index 3:", text[3:])
+print("Last 4 characters:", text[-4:])
+print("Reverse string:", text[::-1])
+
+Output:
+Original string: Programming
+First 5 characters: Progr
+Characters from index 3: gramming
+Last 4 characters: ming
+Reverse string: gnimmargorP
+
+Observation:
+
+String slicing is used to extract parts of a string using start, stop, and step values.
+
+Question 4: Write a program to demonstrate common string methods.
+Code:
+sample = "   hello python world   "
+
+print("Original:", sample)
+print("After strip():", sample.strip())
+print("Uppercase:", sample.upper())
+print("Replace python with Java:", sample.replace("python", "Java"))
+print("Split words:", sample.strip().split())
+
+Output:
+Original:    hello python world   
+After strip(): hello python world
+Uppercase:    HELLO PYTHON WORLD   
+Replace python with Java:    hello Java world   
+Split words: ['hello', 'python', 'world']
+
+Observation:
+
+String methods are used to manipulate and format strings easily without changing the original string.
